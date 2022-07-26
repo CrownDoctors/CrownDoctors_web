@@ -18,6 +18,7 @@
 
 <body>
     <div class="container-fliud bg-image text-center text-white">
+        <div class="temp-div"></div>
         <div class="text-center mb-3">
             <div class="">
                 <img src="./images/image1.jpg" class="image-resize img-fluid" alt="placeholder image">
@@ -42,18 +43,22 @@
     <div class="container custom-div w-100">
         <!-- row that contains "Download Now!" and image -->
         <div class="row text-center">
-            <h4>Download Now!</h4>
-            <img src="./images/down.png" class="mx-auto d-block" style="width: 60px; height: 30px;" alt="Image of a down arrow">
+            <h4 style="font-size:2.5vw; position: relative; top: 3vw;">Download Now!</h4>
+            <img src="./images/down.png" class="mx-auto d-block" style="width: 5vw; height: 2vw; position: relative; top: 2vw;" alt="Image of a down arrow">
         </div>
         <!-- row that contains two buttons -->
         <div class="row custom-div-2 justify-content-center align-items-start">
                 <div class="col-sm-2">
-                    <a href="#" class="first-button bg-black w-75 btn active" role="button">Android</a>
+                    <a href="#" class="first-button bg-black btn btn-resize active px-4" style="font-size:1vw;" role="button">Android</a>
+                    <!--
                     <img src="./images/crown.png" alt="Image of a crown">
+                    -->
                 </div>
                 <div class="col-sm-2">
-                    <a href="#" class="first-button bg-black w-75 btn active" role="button">iOS</a>
-                    <img src="./images/crown.png" alt="Image of a crown">
+                    <a href="#" class="first-button bg-black btn btn-resize active" style="font-size:1vw;" role="button">IOS</a>
+                    <!--
+                    <img class="crown-ios" src="./images/crown.png" alt="Image of a crown">
+                    -->
                 </div>
         </div>
     </div>

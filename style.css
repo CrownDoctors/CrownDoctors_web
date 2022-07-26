@@ -49,28 +49,47 @@ button{
     width: 60vw;
 }
 
+.temp-div{
+    height: 9vh;
+    background-color: rgb(154, 172, 253);
+}
+
 /* custom-div aids in positioning the div at the bottom of page */
-        .custom-div{
-            position: fixed;
-            left: 0%;
-            right: 0%;
-            bottom: 5%;
-        }
-        .custom-div-2 div a{
-            color: white !important;     
-            border: none !important;
-            float: left;
-        }
-        .first-button{
-            margin-left: 11%;
-        }
-        .custom-div-2 a:hover{
-            background-color: lightgray !important;
-            border: pink !important;
-        }
-        .custom-div-2 div img{
-            background-color: pink;
-            width: 18%;
-            margin-left: -20%;
-            float: left;
-        }
+.custom-div{
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    bottom: 5%;
+}
+
+.custom-div-2 div a{
+    color: white !important;     
+    border: none !important;
+    position: relative;
+    right: 1.4vh;
+    top: 2vw;   
+}
+
+.first-button{
+    margin-left: 11%;
+}
+        
+.custom-div-2 a:hover{
+    background-color: lightgray !important;
+    border: pink !important;
+}
+        
+.custom-div-2 div img{
+    position: relative;
+    background-color: pink;
+    width: 3vw;
+    bottom: -2vw;
+    left: 8.3vw;
+}
+
+.btn-resize{
+    width: 10vw;
+    height: 5vh;
+    padding: 0;
+    line-height: 2.8vh !important;
+}
