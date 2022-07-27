@@ -34,6 +34,10 @@ button{
     font-family: regular;
 }
 
+body{
+    background-color: #e7717d !important;
+}
+
 .image-resize {
     width: 33.5%;
     margin: -5px;
@@ -55,14 +59,14 @@ button{
 }
 
 /* custom-div aids in positioning the div at the bottom of page */
-.custom-div{
+.custom-div {
     position: fixed;
     left: 0%;
     right: 0%;
     bottom: 5%;
 }
 
-.custom-div-2 div a{
+.custom-div-2 div a {
     color: white !important;     
     border: none !important;
     position: relative;
@@ -70,16 +74,16 @@ button{
     top: 2vw;   
 }
 
-.first-button{
+.first-button {
     margin-left: 11%;
 }
         
-.custom-div-2 a:hover{
+.custom-div-2 a:hover {
     background-color: lightgray !important;
     border: pink !important;
 }
         
-.custom-div-2 div img{
+.custom-div-2 div img {
     position: relative;
     background-color: pink;
     width: 3vw;
@@ -87,9 +91,25 @@ button{
     left: 8.3vw;
 }
 
-.btn-resize{
+.btn-resize {
     width: 10vw;
     height: 5vh;
     padding: 0;
     line-height: 2.8vh !important;
+}
+
+ul {
+    color: black;
+    list-style-type: none;
+}
+
+li {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.bg-white-li {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 90vw;
+    margin-bottom: 0;
 }
