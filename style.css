@@ -1,3 +1,35 @@
+@font-face {
+    font-family: regular;
+    src: url(./fonts/Metropolis-Regular.otf);
+}
+
+@font-face {
+    font-family: bold;
+    src: url(./fonts/Metropolis-SemiBold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: italic;
+    src: url(./fonts/Metropolis-RegularItalic.otf);
+}
+
+h1 {
+    font-family: bold;
+}
+
+h2 {
+    font-family: regular;
+}
+
+h3 {
+    font-family: regular;
+}
+
+h4 {
+    font-family: regular;
+}
+
 .bg-color {
     background-color: #e7717d;
 }
