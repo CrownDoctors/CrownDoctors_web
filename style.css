@@ -1,3 +1,11 @@
+.bg-color {
+    background-color: #e7717d;
+}
+
 .margin-top {
     margin-top: 20vh;
+}
+
+.info-background-color {
+    background-color: #fdfdfd80;
 }
